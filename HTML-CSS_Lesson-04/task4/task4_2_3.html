@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Упражнения с таблицами</title>
+    <link rel="stylesheet" href="style2_3.css">
+</head>
+
+<body>
+    <table>
+        <caption>Комп'ютерні курси</caption>
+        <colgroup>
+            <col span="1" id="FirstColumn">
+            <col span="3" id="TableColumns">
+        </colgroup>
+        <tr>
+            <th></th>
+            <th>Час</th>
+            <th>Дні</th>
+            <th>Вартість</th>
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td rowspan="2">17:30-19:00</td>
+            <td>Пн-Ср-Пт</td>
+            <td>3 000 грн.</td>
+        </tr>
+        <tr>
+            <td>C#</td>
+
+            <td rowspan="2">Вт-Чт</td>
+            <td>3 000 грн.</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>19:00-20:30</td>
+
+            <td>3 000 грн.</td>
+        </tr>
+    </table>
+</body>
+
+</html>
